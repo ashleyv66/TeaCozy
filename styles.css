@@ -22,9 +22,6 @@ html {
     opacity: 0.9;
 }
 
-header {border: dashed 1px red;
-}
-
 .nav-area {
     display:inline-flex;
     height: 69px;
@@ -56,7 +53,8 @@ li {
     margin:auto 10px;
     text-decoration:underline;
 }
-.mission {border: dashed 1px yellow;
+.mission {
+    background-image: url(./Images/img-mission-background.jpg);
     position:relative;
     z-index: 1;
     top: 70px;
@@ -67,10 +65,6 @@ li {
     margin-right: auto;
 }
 
-.mission-banner h1,
-.mission-banner h4 {
-    margin:auto
-}
 .mission-banner {
     position:absolute;
     background-color:black;
@@ -83,12 +77,38 @@ li {
     transform:translate(0,-50%)
 }
 
-.tea-otm {border: dashed 1px red;
+.steeping {
+    flex-shrink: 1;
+    max-width:1000px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.tea-otm {
     position: relative;
     z-index:1;
     margin:30px auto;
     width: 1000px;
     top:100px;
     text-align: center;
-
 }
+
+.tea-img {
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.all-teas {
+    width:300px;
+    margin: 10px 10px;
+    
+}
+.all-teas h4 {
+    margin-top:10px;
+}
+.teas {
+    height: 200px;
+    width:300px;
+}
+border: dashed 1px orange;
+border: dashed 1px red;
